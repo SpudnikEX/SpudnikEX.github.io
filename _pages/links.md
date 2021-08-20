@@ -1,3 +1,9 @@
+---
+title: "Reference links"
+permalink: /links/
+author_profile: true
+---
+
 A compilation of resources that I find useful or interesting.
 
 Codeer:
