@@ -6,6 +6,5 @@ author_profile: true
 
 A compilation of resources that I find useful or interesting.
 
-Codeer:
-[Youtube](https://www.youtube.com/channel/UCtUeziXLa_x3vvdzUinqE8w)
+[Codeer](https://www.youtube.com/channel/UCtUeziXLa_x3vvdzUinqE8w)
 [Catlike Coding](https://catlikecoding.com)
