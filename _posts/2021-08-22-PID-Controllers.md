@@ -31,7 +31,7 @@ A pid controller is a closed feedback loop which input the current status of the
 
 I won't go too heavy into the math, instead will provide a brief overview with example.
 
-`
+{% highlight C# %}
 void Controller() {
   Vector3 error = target.position - current.position;
   
@@ -43,7 +43,8 @@ void Controller() {
   this.errorPrev = error;
 
   return output;
-}`
+}
+{% endhighlight %}
 
 This is a simple example of a PID, which needs to be tuned at runtime to achieve desired speed and damping. This can be expanded to include limiting the maximum forces applied, account for inertia tensors, and be used to predict future movements of the object for better automation and force control. These topics may be expanded upon later.
 
