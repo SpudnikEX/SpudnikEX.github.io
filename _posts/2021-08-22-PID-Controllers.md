@@ -10,6 +10,7 @@ tags:
   - Unity
   - Physics
   - Robotics
+classes: wide
 ---
 
 In the world of robotics and game engines, it is common that a physics object needs to be moved or articulated to a precise location or rotation. Such objects are commonly referred as rigidbodies. In order to move these rigidbodies, a force or torque needs to be applied to reach the object's target.
