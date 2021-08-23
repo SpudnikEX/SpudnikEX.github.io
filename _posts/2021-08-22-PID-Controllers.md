@@ -22,7 +22,6 @@ A typical usage is where you would change the velocity is when jumping
 in a first person shooter, because you want an immediate change in 
 velocity.
 
-
 Although this is main method of moving rigidbodies, forces need to be calculated each step to ensure objects reach their destination as fast as desired, without overshooting the target.
 
 In modern robotics machines need to be articulated to precise positions and rotations for maximum efficiency as well as safety. The [PID controller](https://en.wikipedia.org/wiki/PID_controller) is a simple solution to adjust rigidbodies in real time with little oversight needed once setup properly.
@@ -32,7 +31,7 @@ A pid controller is a closed feedback loop which input the current status of the
 
 I won't go too heavy into the math, instead will provide a brief overview with example.
 
-{% highlight C# %}
+```C#
 void Controller() {
   Vector3 error = target.position - current.position;
   
@@ -45,21 +44,9 @@ void Controller() {
 
   return output;
 }
-{% endhighlight %}
+```
 
 This is a simple example of a PID, which needs to be tuned at runtime to achieve desired speed and damping. This can be expanded to include limiting the maximum forces applied, account for inertia tensors, and be used to predict future movements of the object for better automation and force control. These topics may be expanded upon later.
-
-
-{% highlight Java %}
-
-var name = "Alice";
-var function = alertMessage(){
-  alert("Hello, " + name);
-  var name = "Bob";
-};
-alertMessage();
-
-{% endhighlight %}
 
 
 
