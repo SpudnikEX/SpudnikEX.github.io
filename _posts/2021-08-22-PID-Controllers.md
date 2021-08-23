@@ -4,7 +4,7 @@ last_modified_at: 2021-08-22T22:04:02-05:00
 categories:
   - Blog
 header:
-  - image: /assets/images/E1.jpg
+  - image: /assets/images/N1.jpg
   - caption: "Photo credit: [SandiaLabs](Foter.com)"
 tags:
   - Unity
