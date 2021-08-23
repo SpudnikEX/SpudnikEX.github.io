@@ -98,7 +98,6 @@ defaults:
       comments: true
       share: false
       related: true
-    classes: wide
   # _pages
   - scope:
       path: "_pages"
