@@ -5,6 +5,7 @@ categories:
   - Blog
 header:
   - image: /assets/images/headers/E1.jpg
+  - caption: "Photo credit: [SandiaLabs](Foter.com)"
 tags:
   - Unity
   - Physics
