@@ -27,7 +27,7 @@ Although this is main method of moving rigidbodies, forces need to be calculated
 In modern robotics machines need to be articulated to precise positions and rotations for maximum efficiency as well as safety. The [PID controller](https://en.wikipedia.org/wiki/PID_controller) is a simple solution to adjust rigidbodies in real time with little oversight needed once setup properly.
 A pid controller is a closed feedback loop which input the current status of the rigidbody every step, and then provides a force in order to reach the target, and then provides feedback into the loop for a calculation in the next step.
 
-(Picture Missing)
+![PID Design](/assets/pid.jpg)
 
 I won't go too heavy into the math, instead will provide a brief overview with example.
 
