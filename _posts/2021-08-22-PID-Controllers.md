@@ -32,11 +32,11 @@ A pid controller is a closed feedback loop which input the current status of the
 
 ![PID Diagram](/assets/images/pid.png)
 
-I won't go too heavy into the math, instead will provide a brief overview with example.
+I won't go too heavy into the math, instead will provide a brief overview with example:
 
 ```C#
-void Controller() {
-  Vector3 error = target.position - current.position;
+Vector3 Controller() {
+  Vector3 proportion = target.position - current.position;
   
   this._integral += (error * deltaTime);
 
@@ -49,7 +49,11 @@ void Controller() {
 }
 ```
 
-This is a simple example of a PID, which needs to be tuned at runtime to achieve desired speed and damping. This can be expanded to include limiting the maximum forces applied, account for inertia tensors, and be used to predict future movements of the object for better automation and force control. These topics may be expanded upon later.
+In the above code, there are three primary areas of focus which makes the PID controller work. Proportion, also referred to as the margin of error, is the calculation of how far away an object is from it's target. Integral accounts for error values in the previous step, which will then add to the current step to help midigate the margin of error. Derivative, to put shortly, is the dampening factor of the process. A higher derivative value will give a higher dampening value.
+Kp, Ki, and Kd are tuning paremeters which affect their respective variable. 
+
+
+This is a simple example of a PID, which needs to be tuned at runtime to achieve desired speed and damping. This can be expanded to include limiting the maximum forces applied, account for inertia tensors, integration into configurable joints, and be used to predict future movements of the object for better automation and force control. These topics may be expanded upon later.
 
 
 
