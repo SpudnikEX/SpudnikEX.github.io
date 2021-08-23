@@ -14,6 +14,13 @@ In the world of robotics and game engines, it is common that a physics object ne
 A common way to move physics objects in Unity is to use [Rigidbody.AddForce](https://docs.unity3d.com/ScriptReference/Rigidbody.AddForce.html), or by adjusting the rigidbody's velocity directly, although Unity advises against this (unless you know what you're doing).
 
 > <cite><a href="https://docs.unity3d.com/ScriptReference/Rigidbody-velocity.html">Rigidbody-Velocity</a></cite>
+> In most cases you should not modify the velocity directly, as this can 
+result in unrealistic behaviour - use AddForce instead
+Do not set the velocity of an object every physics step, this will lead 
+to unrealistic physics simulation.
+A typical usage is where you would change the velocity is when jumping 
+in a first person shooter, because you want an immediate change in 
+velocity.
 
 Although this is main method of moving rigidbodies, forces need to be calculated each step to ensure objects reach their destination as fast as desired, without overshooting the target.
 
