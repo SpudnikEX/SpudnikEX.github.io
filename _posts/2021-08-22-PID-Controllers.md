@@ -22,6 +22,7 @@ in a first person shooter, because you want an immediate change in
 velocity.
 
 > <cite><a href="https://docs.unity3d.com/ScriptReference/Rigidbody-velocity.html">Rigidbody-Velocity</a></cite>
+
 Although this is main method of moving rigidbodies, forces need to be calculated each step to ensure objects reach their destination as fast as desired, without overshooting the target.
 
 In modern robotics machines need to be articulated to precise positions and rotations for maximum efficiency as well as safety. The [PID controller](https://en.wikipedia.org/wiki/PID_controller) is a simple solution to adjust rigidbodies in real time with little oversight needed once setup properly.
