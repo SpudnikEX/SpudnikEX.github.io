@@ -34,7 +34,7 @@ $header-font-family: $sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
-$type-size-1: 2.441em !default; // ~39.056px
+$type-size-1: 2em !default; // 
 $type-size-2: 1.5em !default; // 
 $type-size-3: 1.25em !default; // 
 $type-size-4: 1em !default; // 
