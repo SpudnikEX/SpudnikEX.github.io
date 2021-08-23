@@ -3,6 +3,8 @@ title: "PID Controllers"
 last_modified_at: 2021-08-22T22:04:02-05:00
 categories:
   - Blog
+header:
+  - imgage:/assets/images/headers/E1.jpg
 tags:
   - Unity
   - Physics
