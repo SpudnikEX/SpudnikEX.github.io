@@ -3,4 +3,4 @@ permalink: /resume/
 title: "Resume"
 ---
 
-![](/assets/images/resume.pdf)
+![](/assets/images/resume.png)
