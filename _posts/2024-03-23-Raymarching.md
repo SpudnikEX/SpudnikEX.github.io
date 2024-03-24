@@ -18,4 +18,4 @@ Vulkano is an abstraction library that simplifies the process of window creation
 
 
 ## References
-[michael](https://michaelwalczyk.com/blog-ray-marching.html)https://michaelwalczyk.com/blog-ray-marching.html
+[https://michaelwalczyk.com/blog-ray-marching.html](https://michaelwalczyk.com/blog-ray-marching.html)
