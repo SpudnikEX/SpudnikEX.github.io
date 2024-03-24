@@ -69,5 +69,5 @@ For the last part, I wanted to experiment with sinusoidal displacement. Using Si
 
 ***
 ## References
-[https://michaelwalczyk.com/blog-ray-marching.html](https://michaelwalczyk.com/blog-ray-marching.html)
-[https://iquilezles.org/](https://iquilezles.org/)
+- [https://michaelwalczyk.com/blog-ray-marching.html](https://michaelwalczyk.com/blog-ray-marching.html)
+- [https://iquilezles.org/](https://iquilezles.org/)
