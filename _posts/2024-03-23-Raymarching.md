@@ -50,8 +50,24 @@ Doing some experimentation, I added another vertex & using the index buffer, con
 This can be used in the fragment shader to apply the UV color, ranging from 0 - 1.
 
 ![](/assets/images/raymarch3.png)
+
+***
+Now that we have something rendered to the screen, we can finally begin raymarching. First step was making the full-screen quad large enough to cover the entire window. 
+Within the fragment shader, for each pixel on the screen, we can cast a ray into the scene and check for an intersection.
+
+Raymarching uses mathmatical formulas called Signed Distance Functions or SDFs. 
+For this next part, i used the SDF to make a sphere.
+
+Using a uniform buffer, we can pass arbitrary data to the shaders. Passing a value for time and then applying that to the color of the sphere gives a nice rainbow effect.
+
 ![](/assets/images/raymarch4.gif)
+
+***
+For the last part, I wanted to experiment with sinusoidal displacement. Using Sin and Cosine functions with casting rays results in some interesting effects. 
+
 ![](/assets/images/raymarch5.png)
 
+***
 ## References
 [https://michaelwalczyk.com/blog-ray-marching.html](https://michaelwalczyk.com/blog-ray-marching.html)
+[https://iquilezles.org/](https://iquilezles.org/)
