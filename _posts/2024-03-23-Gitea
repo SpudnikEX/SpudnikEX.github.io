@@ -1,1 +1,16 @@
-Test Test Test
+---
+title: "Post: Migrating to a self-hosted private repository"
+last_modified_at: 2024-03-23T16:20:02-05:00
+categories:
+  - Blog
+tags:
+  - git
+---
+
+Recently, I've been tinkering with docker on my home server. For my larger projects at home, I would like to 
+![](http://www.w3.org/2000/svg) docker compose
+
+
+![](https://about.gitea.com/gitea-text.svg)
+
+steps alternative to github
