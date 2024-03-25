@@ -67,7 +67,7 @@ Lastly, I wanted to experiment with sinusoidal displacement. Using Sin and Cosin
 
 ![](/assets/images/raymarch5.png)
 
-I comitted my progress to my private git repository, outlined [in this post](/_posts/2024-03-23-Gitea.md)
+I comitted my progress to my private git repository, outlined [in this post](/blog/Gitea/)
 
 ***
 ## References
