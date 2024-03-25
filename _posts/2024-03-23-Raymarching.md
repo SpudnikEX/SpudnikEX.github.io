@@ -63,9 +63,11 @@ Using a uniform buffer, we can pass arbitrary data to the shaders. Passing a val
 ![](/assets/images/raymarch4.gif)
 
 ***
-For the last part, I wanted to experiment with sinusoidal displacement. Using Sin and Cosine functions with casting rays results in some interesting effects. 
+Lastly, I wanted to experiment with sinusoidal displacement. Using Sin and Cosine functions with casting rays results in some interesting effects. 
 
 ![](/assets/images/raymarch5.png)
+
+I comitted my progress to my private git repository, outlined [in this post](https://github.com/SpudnikEX/SpudnikEX.github.io/_posts/2024-03-23-Gitea.md)
 
 ***
 ## References
