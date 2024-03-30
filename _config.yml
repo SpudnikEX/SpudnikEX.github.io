@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Taylor Frizzell"
   avatar : "/assets/images/bio.jpg"
-#  bio    : "Links"
+  bio    : "----------"
   links:
 #     - label: "Website"
 #       icon: "fas fa-fw fa-link"
